@@ -1,0 +1,77 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/image_view_location_pin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/center_point"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ic_location"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <View
+        android:id="@+id/center_point"
+        android:layout_width="1px"
+        android:layout_height="1px"
+        android:layout_centerInParent="true" />
+
+    <Button
+        android:id="@+id/button_select_picUp"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/selectPickUp" />
+
+    <Button
+        android:id="@+id/button_select_destination"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorPrimary"
+        android:text="@string/selectDestination"
+        android:visibility="gone" />
+
+    <Button
+        android:id="@+id/button_request_trip"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="20dp"
+        android:backgroundTint="@color/colorAccent"
+        android:text="@string/request_trip"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:id="@+id/linear_layout_finding_trip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_margin="8dp"
+        android:background="@color/white"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:visibility="gone">
+
+        <ProgressBar
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginEnd="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/finding_driver"
+            android:textColor="@color/black" />
+
+    </LinearLayout>
+
+</RelativeLayout>

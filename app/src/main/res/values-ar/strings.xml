@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">رحلتي</string>
+
+    <string name="title_activity_maps">رحلتي</string>
+    <string name="location_permission_needed">صلاحية قراءة الموقع مطلوبة لعرض موقعك على الخرائط</string>
+    <string name="selectDestination">اختر الوجهه</string>
+    <string name="request_trip">اطلب رحلة</string>
+    <string name="finding_driver">جارى البحث عن سائق</string>
+    <string name="splash_text">رحلتي</string>
+    <string name="loading_your_info">جاري تحميل البيانات</string>
+    <string name="error_loading_data">خطأ فى قراءة بيانات المستخدم</string>
+    <string name="you_have_arrived">لقد وصلت الى وجهتك</string>
+    <string name="selectPickUp">اختر نقطة البداية</string>
+    <string name="no_available_drivers">لم نستطع ايجاد سائق متاح</string>
+    <string name="ok">حسنا</string>
+    <string name="driver_going_to_pickup">فى الطريق الى نقطة البداية</string>
+    <string name="going_to_destination">فى الطريق الى الوجهه</string>
+    <string name="arrived">لقد وصلت الى وجهتك</string>
+</resources>
